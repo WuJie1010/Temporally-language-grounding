@@ -22,10 +22,10 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 |  A2C        | 1      |   7    |
 
 ## Features Download
-- visual features
-- visual activity concepts (for MAC)
-- ref_info
-- RL_pickle (for A2C)
+- [visual features](https://drive.google.com/open?id=1vFxDw4AkGVgfILH-6xaHofLZ7PbWwFC2)
+- [visual activity concepts](https://drive.google.com/open?id=1biKPDmb7hbzowKLMIRSTLE0w_tWbGPAe) (for MAC)
+- [ref_info](https://drive.google.com/open?id=16rFGu9rnhnH-WQeUmN7VtMgljrhGspll)
+- [RL_pickle]() (for A2C)
 
 ### Training and Testing for TALL
 python main_charades_SL.py --model TALL
