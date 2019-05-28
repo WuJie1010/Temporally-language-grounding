@@ -15,11 +15,11 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 - [A2C]((https://arxiv.org/abs/1901.06829v1)): Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos.
 
 ## Performance
-| Methods        | R@1, IoU0.7   |  R@1, IoU0.5  |
+| Methods        | R@1, IoU0.7   |  R@1, IoU0.5  | R@5, IoU0.7   |  R@5, IoU0.5  |
 | --------   | -----:   | :----: |
 | TALL        | 1      |   5    |
 |  MAC        | 1      |   6    |
-|  A2C        | 1      |   7    |
+|  A2C        | 1      |   7    |  None      |   None    |
 
 ## Features Download
 - [visual features](https://drive.google.com/open?id=1vFxDw4AkGVgfILH-6xaHofLZ7PbWwFC2)
@@ -35,4 +35,8 @@ python main_charades_SL.py --model MAC
 
 ### Training and Testing for A2C
 python main_charades_RL.py
+
+
+## Acknowledgements
+Thanks the original [TALL](https://github.com/jiyanggao/TALL), [MAC](https://github.com/runzhouge/MAC) and awesome PyTorch team.
 
