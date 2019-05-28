@@ -11,10 +11,10 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 ## Features Download
 
 ### Training and Testing for TALL
-python main_charades.py --model TALL
+python main_charades_SL.py --model TALL
 
 ### Training and Testing for MAC
-python main_charades.py --model MAC
+python main_charades_SL.py --model MAC
 
 ### Training and Testing for A2C
 python main_charades_RL.py
