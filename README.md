@@ -27,15 +27,19 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 - [ref_info](https://drive.google.com/open?id=16rFGu9rnhnH-WQeUmN7VtMgljrhGspll)
 - [RL_pickle]() (for A2C)
 
-### Training and Testing for TALL
+### Training and Testing
+Training and Testing for TALL, run
+```
 python main_charades_SL.py --model TALL
-
-### Training and Testing for MAC
+```
+Training and Testing for MAC, run
+```
 python main_charades_SL.py --model MAC
-
-### Training and Testing for A2C
+```
+Training and Testing for A2C, run
+```
 python main_charades_RL.py
-
+```
 
 ## Acknowledgements
 Thanks the original [TALL](https://github.com/jiyanggao/TALL), [MAC](https://github.com/runzhouge/MAC) and awesome PyTorch team.
