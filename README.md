@@ -8,11 +8,11 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 ### Reinforcement Learning based method
 - A2C: Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos [pdf](https://arxiv.org/abs/1901.06829v1)
 
-| 水果        | 价格    |  数量  |
+| Methods        | R@1, IoU0.7   |  R@1, IoU0.5  |
 | --------   | -----:   | :----: |
-| 香蕉        | $1      |   5    |
-| 苹果        | $1      |   6    |
-| 草莓        | $1      |   7    |
+| TALL        | $1      |   5    |
+|  MAC        | $1      |   6    |
+|  A2C        | $1      |   7    |
 
 
 ## Features Download
