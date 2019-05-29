@@ -18,7 +18,7 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 | Methods        | R@1, IoU0.7   |  R@1, IoU0.5  | R@5, IoU0.7   |  R@5, IoU0.5  |
 |  :------:   | :-----:   | :----: | :----: | :----: |
 | TALL        | 1      |   5    |1      |   5    |
-|  MAC        | 1      |   6    |1      |   5    |
+|  MAC        | 12.31  |   29.68    |37.31      |   64.14    |
 |  A2C        | 1      |   7    |  None      |   None    |
 
 ## Features Download
