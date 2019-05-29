@@ -21,9 +21,6 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 |  MAC        | 12.31  |   29.68    |37.31      |   64.14    |
 |  A2C        | 1      |   7    |  None      |   None    |
 
-IoU=0.5, R@5: 0.595967741935; IoU=0.5, R@1: 0.240860215054
-Epoch 2: IoU=0.7, R@10: 0.427150537634; IoU=0.7, R@5: 0.293279569892; IoU=0.7, R@1: 0.0862903225806
-
 ## Features Download
 - [visual features](https://drive.google.com/open?id=1vFxDw4AkGVgfILH-6xaHofLZ7PbWwFC2)
 - [visual activity concepts](https://drive.google.com/open?id=1biKPDmb7hbzowKLMIRSTLE0w_tWbGPAe) (for MAC)
