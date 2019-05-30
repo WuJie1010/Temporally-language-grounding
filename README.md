@@ -19,7 +19,7 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 |  :------:   | :-----:   | :----: | :----: | :----: |
 | TALL        | 8.63      |   24.09    |29.33      |   59.60    |
 |  MAC        | 12.31  |   29.68    |37.31      |   64.14    |
-|  A2C        | 1      |   7    |  None      |   None    |
+|  A2C        | 13.60      |   32.23    |  None      |   None    |
 
 ## Features Download
 - [visual features](https://drive.google.com/open?id=1vFxDw4AkGVgfILH-6xaHofLZ7PbWwFC2)
