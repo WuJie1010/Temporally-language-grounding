@@ -12,7 +12,7 @@ A Pytorch implemention for some state-of-the-art models for "Temporally language
 - [TALL](http://openaccess.thecvf.com/content_ICCV_2017/papers/Gao_TALL_Temporal_Activity_ICCV_2017_paper.pdf): Temporal Activity Localization via Language Query
 - [MAC](https://arxiv.org/pdf/1811.08925.pdf): MAC: Mining Activity Concepts for Language-based Temporal Localization.
 ### Reinforcement Learning based method
-- [A2C]((https://arxiv.org/abs/1901.06829v1)): Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos.
+- [A2C](https://arxiv.org/abs/1901.06829v1): Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos.
 
 ## Performance
 | Methods        | R@1, IoU0.7   |  R@1, IoU0.5  | R@5, IoU0.7   |  R@5, IoU0.5  |
