@@ -9,6 +9,7 @@ import argparse
 from utils import *
 from dataloader_charades_RL import Charades_Train_dataset, Charades_Test_dataset
 from model_A2C import A2C
+import random
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -50,6 +51,15 @@ if opt.model == 'A2C':
 
 optimizer = torch.optim.Adam(net.parameters(), lr=opt.lr)
 
+def setup_seed(seed):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = True
+
+setup_seed(0)
 best_R1_IOU7 = 0
 best_R1_IOU5 = 0
 best_R5_IOU7 = 0
