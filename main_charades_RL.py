@@ -267,6 +267,7 @@ def train(epoch):
             values[step, :] = value.squeeze(1)
             log_probs[step, :] = log_prob.squeeze(1)
             rewards[step, :] = reward
+            locations[step, :] = location
 
         total_rewards_epoch.append(rewards.sum())
 
