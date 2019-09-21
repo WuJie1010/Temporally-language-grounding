@@ -268,7 +268,9 @@ def train(epoch):
             log_probs[step, :] = log_prob.squeeze(1)
             rewards[step, :] = reward
             locations[step, :] = location
-            Predict_IoUs[step, :] = tIoU
+            # Predict_IoUs[step, :] = tIoU
+            #use softmax to keep predict iou range in 0-1
+            Predict_IoUs[step, :] = torch.squeeze(F.softmax(tIoU,dim=0))
 
         total_rewards_epoch.append(rewards.sum())
 
